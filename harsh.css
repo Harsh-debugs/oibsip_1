@@ -1,0 +1,300 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: relative;
+    background-color: #fff; 
+    color: #333; 
+    padding: 1em;
+    text-align: center;
+    height: 150px;
+}
+
+.logo {
+    width: 220px;
+    height: 42px;
+    margin: 10px auto;
+    display: block;
+}
+hr {
+    border: none;
+    border-top: 1px solid #333;
+    margin: 10px 0;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: contents;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.2s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #2308eecf;
+  }
+  
+  nav ul li a:active {
+    color: #2308eecf;
+  }
+  
+  nav ul:first-child {
+    grid-column: 1 / -1;
+  }
+  
+  nav ul:last-child {
+    grid-column: 1 / -1;
+    grid-row: 2;
+  }
+  
+
+  .hero-image-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .hero-image-container {
+    position: relative;
+    width: 45%; 
+    margin: 10px;
+  }
+  
+  .hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .image-text {
+    position: absolute;
+    bottom: 60px; 
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .shop-now-button {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+
+.features {
+    background-color: #f7f7f7;
+    padding: 2em;
+}
+
+.features h2 {
+    margin-top: 0;
+}
+
+.features ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.features li {
+    margin-bottom: 10px;
+}
+
+.features i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.cta {
+    position: relative;
+    text-align: center;
+  }
+  
+  .cta img {
+    width: 100%;
+    height: 700px; 
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .cta .shop-now-btn {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .cta .shop-now-btn:hover {
+    background-color: #0069d9;
+  }
+
+.video {
+    background-color: #f7f7f7;
+    padding: 2em;
+    text-align: center;
+}
+
+.video h2 {
+    margin-top: 0;
+}
+
+.video video {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.products {
+    padding: 20px;
+  }
+  
+  .product-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .product {
+    width: 30%; 
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .product img {
+    width: 100%;
+    height: 200px; 
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .product a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+.why-choose-campus-shoes {
+    background-color: #f7f7f7;
+    padding: 2em;
+    margin-bottom: 20px;
+}
+
+.why-choose-campus-shoes h2 {
+    margin-top: 0;
+}
+
+.why-choose-campus-shoes ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.why-choose-campus-shoes li {
+    margin-bottom: 10px;
+}
+
+.why-choose-campus-shoes i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+.best-sellers {
+    padding: 20px;
+  }
+  
+  .product-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .product {
+    width: 30%; 
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .product img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .product a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 2em;
+    text-align: center;
+}
+
+.footer-columns {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.footer-column {
+    width: 30%;
+    margin: 10px;
+}
+
+.footer-column h3 {
+    margin-top: 0;
+}
+
+.footer-column ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-column li {
+    margin-bottom: 10px;
+}
+
+.footer-column a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-column a:hover {
+    color: #007bff;
+ }
+
+.copyright {
+    margin-top: 20px;
+}
